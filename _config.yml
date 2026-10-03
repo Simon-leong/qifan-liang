@@ -9,8 +9,8 @@
 title                    : "Qifan Liang's Homepage"
 description              : "Qifan Liang's Homepage"
 url                      : "https://simon-leong.github.io"
-baseurl                  : "/qifan-research"
-repository               : "Simon-leong/qifan-research"
+baseurl                  : "/qifan-liang"
+repository               : "Simon-leong/qifan-liang"
 noindex                  : true   # keep this site out of search engines; it is shared only via the CV
 google_scholar_stats_use_cdn : true
 
