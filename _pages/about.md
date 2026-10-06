@@ -549,13 +549,13 @@ redirect_from:
 
 Hi! I am Qifan Liang (Simon Leong), a Master of Computing (AI) student at the National University of Singapore (expected Jan 2027), working in the [Sound and Music Computing Lab](https://smcnus.comp.nus.edu.sg/) with Prof. [Ye Wang](https://www.comp.nus.edu.sg/cs/people/wangye/). I received my B.Eng. in Computer Science from Wuhan University, where I worked with Prof. [Zhen Han](https://dblp.org/pid/62/302-2.html) and Prof. [Zhongyuan Wang](https://cs.whu.edu.cn/info/1019/2495.htm) at the [National Engineering Research Center for Multimedia Software](https://multimedia.whu.edu.cn/index.htm).
 
-My research focuses on modeling interactions between people, between digital humans, and between the two, drawing on computing, engineering and science. I have worked with surgeons from Zhongnan Hospital of Wuhan University on laparoscopic video analysis, with Prof. [Yixuan Yuan](https://www.ee.cuhk.edu.hk/en-gb/people/academic-staff/professors/prof-yixuan-yuan)'s AIM Group at The Chinese University of Hong Kong on surgical video restoration and intent understanding, and with Prof. [Jens Rittscher](https://ibme.ox.ac.uk/person/jens-rittscher/) at the Big Data Institute, University of Oxford, on learning from scarce data. In the SMC Lab, I work on expressive speech, gesture and AI agents that assess human communication.
+My research focuses on modeling interactions between people, between digital humans, and between the two, drawing on computing, engineering and science. I have worked with surgeons from Zhongnan Hospital of Wuhan University on surgical video analysis, with Prof. [Yixuan Yuan](https://www.ee.cuhk.edu.hk/en-gb/people/academic-staff/professors/prof-yixuan-yuan)'s AIM Group at The Chinese University of Hong Kong on all-in-one surgical video restoration and intent understanding, and with Prof. [Jens Rittscher](https://ibme.ox.ac.uk/person/jens-rittscher/) at the University of Oxford on few-shot learning. In the SMC Lab, I work on expressive speech, gesture and AI agents that assess human communication.
 
 Feel free to reach out if you are interested in collaboration or potential opportunities!
 
 <div class="section-heading" style="--accent:#ca6f6f;" id="research-interests">🔬 Research Interests</div>
 
-My long-term goal is **seamless interaction between physical humans and digital humans in healthcare and education**, where digital humans can support clinicians and coach learners through natural and effective interaction. My research follows three connected stages: understanding how physical humans interact, building digital humans that can communicate, and ultimately closing the loop between physical and digital humans. These stages draw on different disciplines, ranging from surgery and imaging physics to speech science, 3D human modelling, communication, and interactive learning.
+My long-term goal is **seamless interaction between physical humans and digital humans in healthcare and education**, where digital humans can support clinicians and coach learners through natural and effective interaction. My research follows three connected stages: understanding how physical humans interact, building digital humans that can communicate, and ultimately closing the loop between physical and digital humans. These stages draw on different disciplines, ranging from surgery and imaging physics to speech science, 3D human modelling, and higher-level interactive learning.
 
 {% include interaction_roadmap.html %}
 
@@ -567,7 +567,7 @@ My long-term goal is **seamless interaction between physical humans and digital 
 
 <div class="news-box">
   <ul class="news-list">
-    <li><span class="news-date"><em>2026.09</em></span> 🎉🎉 Three papers submitted to <strong>ICLR 2027</strong>: <strong>SurgOmni</strong>, <strong>AIMPACT</strong>, and <strong>SurgIntent</strong>. Thanks to all co-authors!</li>
+    <li><span class="news-date"><em>2026.09</em></span> 🎉🎉 Three papers submitted to <strong>ICLR 2027</strong>. Thanks to all co-authors!</li>
     <li><span class="news-date"><em>2026.07</em></span> 🎤 I presented TED-TTS at <img src="images/acl_logo.svg" style="height:14px; vertical-align:middle; margin: 0 2px;"> <strong>ACL 2026</strong> (online).</li>
     <li><span class="news-date"><em>2026.04</em></span> 🎉🎉 One paper accepted to <img src="images/acl_logo.svg" style="height:14px; vertical-align:middle; margin: 0 2px;"> <strong>ACL 2026</strong>, <span style="color:#ca6f6f;font-weight:600;">nominated for Oral by SAC (Scores: 9/10)</span>. Thanks to all co-authors!</li>
     <li><span class="news-date"><em>2026.01</em></span> 🎤 I presented our surgical desmoking paper at <img src="images/new/AAAI-26_logo.png" style="height:14px; vertical-align:middle; margin: 0 2px;"> <strong>AAAI 2026</strong> in Singapore.</li>
@@ -732,27 +732,6 @@ accuracy and outperforming the strongest general-purpose MLLM by 10.3%.
 <div class="publication-card pub-card--conference" data-category="all">
   <div style="display: flex; align-items: center;">
     <div class="pub-media-rotator" data-interval="4000" style="position: relative; width: 320px; height: 180px; margin-right: 20px; border-radius: 8px; overflow: hidden; flex: 0 0 auto;">
-      <img src="images/new/aaai.jpg" alt="STSVD" style="width: 320px; height: 180px; object-fit: contain; display: block; margin: 0 auto;">
-    </div>
-    <div>
-      <strong>Rethinking Surgical Smoke: A Smoke-Type-Aware Laparoscopic Video Desmoking Method and Dataset</strong><br>
-      <i style="font-size: 13px;">
-        <span class="au-me">Qifan Liang</span>, Junlin Li, <span class="au-corr">Zhen Han<sup>†</sup></span>, Xihao Wang, Zhongyuan Wang, Bin Mei
-      </i><br>
-Categorizes surgical smoke into Diffusion and Ambient types based on temporal motion patterns, proposes a spatio-temporal disentanglement network for state-of-the-art smoke-type-aware video desmoking, and introduces the first large-scale synthetic video desmoking dataset with smoke-type annotations, developed in collaboration with surgeons from Zhongnan Hospital.
-      <br>
-      <b><i style="color:#83a1c7;">AAAI 2026 &nbsp;</i></b>
-      <a href="https://ojs.aaai.org/index.php/AAAI/article/view/37617" target="_blank"><em>[paper]</em></a>
-      <a href="https://arxiv.org/abs/2512.02780" target="_blank"><em>[arXiv]</em></a>
-      <a href="https://simon-leong.github.io/STSVD/" target="_blank"><em>[website]</em></a>
-      <a href="https://github.com/Simon-leong/STSVD" target="_blank"><em>[code]</em></a>
-    </div>
-  </div>
-</div>
-
-<div class="publication-card pub-card--conference" data-category="all">
-  <div style="display: flex; align-items: center;">
-    <div class="pub-media-rotator" data-interval="4000" style="position: relative; width: 320px; height: 180px; margin-right: 20px; border-radius: 8px; overflow: hidden; flex: 0 0 auto;">
       <img src="images/new/acl.png" alt="TED-TTS" style="width: 320px; height: 180px; object-fit: contain; display: block; margin: 0 auto;">
     </div>
     <div>
@@ -769,6 +748,27 @@ Categorizes surgical smoke into Diffusion and Ambient types based on temporal mo
       <a href="https://simon-leong.github.io/TED-TTS-DemoPage/" target="_blank"><em>[website]</em></a>
       <a href="https://github.com/Simon-leong/TED-TTS" target="_blank"><em>[code]</em></a>
       <a href="https://huggingface.co/datasets/Chanson-0803/MED-TTS" target="_blank"><em>[dataset]</em></a>
+    </div>
+  </div>
+</div>
+
+<div class="publication-card pub-card--conference" data-category="all">
+  <div style="display: flex; align-items: center;">
+    <div class="pub-media-rotator" data-interval="4000" style="position: relative; width: 320px; height: 180px; margin-right: 20px; border-radius: 8px; overflow: hidden; flex: 0 0 auto;">
+      <img src="images/new/aaai.jpg" alt="STSVD" style="width: 320px; height: 180px; object-fit: contain; display: block; margin: 0 auto;">
+    </div>
+    <div>
+      <strong>Rethinking Surgical Smoke: A Smoke-Type-Aware Laparoscopic Video Desmoking Method and Dataset</strong><br>
+      <i style="font-size: 13px;">
+        <span class="au-me">Qifan Liang</span>, Junlin Li, <span class="au-corr">Zhen Han<sup>†</sup></span>, Xihao Wang, Zhongyuan Wang, Bin Mei
+      </i><br>
+Categorizes surgical smoke into Diffusion and Ambient types based on temporal motion patterns, proposes a spatio-temporal disentanglement network for state-of-the-art smoke-type-aware video desmoking, and introduces the first large-scale synthetic video desmoking dataset with smoke-type annotations, developed in collaboration with surgeons from Zhongnan Hospital.
+      <br>
+      <b><i style="color:#83a1c7;">AAAI 2026 &nbsp;</i></b>
+      <a href="https://ojs.aaai.org/index.php/AAAI/article/view/37617" target="_blank"><em>[paper]</em></a>
+      <a href="https://arxiv.org/abs/2512.02780" target="_blank"><em>[arXiv]</em></a>
+      <a href="https://simon-leong.github.io/STSVD/" target="_blank"><em>[website]</em></a>
+      <a href="https://github.com/Simon-leong/STSVD" target="_blank"><em>[code]</em></a>
     </div>
   </div>
 </div>
@@ -844,19 +844,6 @@ Categorizes surgical smoke into Diffusion and Ambient types based on temporal mo
       </span>
     </li>
     <li>
-      <span class="pub-list-badge">AAAI 2026</span>
-      <span class="pub-list-title">Rethinking Surgical Smoke: A Smoke-Type-Aware Laparoscopic Video Desmoking Method and Dataset</span><br>
-      <span class="pub-list-authors">
-        <span class="au-me">Qifan Liang</span>, Junlin Li, <span class="au-corr">Zhen Han<sup>†</sup></span>, Xihao Wang, Zhongyuan Wang, Bin Mei.
-      </span>
-      <span class="pub-list-links">
-        <a href="https://ojs.aaai.org/index.php/AAAI/article/view/37617" target="_blank">[paper]</a>
-        <a href="https://arxiv.org/abs/2512.02780" target="_blank">[arXiv]</a>
-        <a href="https://simon-leong.github.io/STSVD/" target="_blank">[website]</a>
-        <a href="https://github.com/Simon-leong/STSVD" target="_blank">[code]</a>
-      </span>
-    </li>
-    <li>
       <span class="pub-list-badge">ACL 2026</span>
       <span style="display:inline-block;padding:1px 7px;border-radius:999px;background:#fef5f1;border:1px solid #f5bba7;color:#ca6f6f;font-size:10px;font-weight:700;vertical-align:middle;margin-right:4px;">🎙 Oral Nominee (SAC)</span>
       <span class="pub-list-title">TED-TTS: Training-Free Intra-Utterance Emotion and Duration Control for Text-to-Speech Synthesis</span><br>
@@ -869,6 +856,19 @@ Categorizes surgical smoke into Diffusion and Ambient types based on temporal mo
         <a href="https://simon-leong.github.io/TED-TTS-DemoPage/" target="_blank">[website]</a>
         <a href="https://github.com/Simon-leong/TED-TTS" target="_blank">[code]</a>
         <a href="https://huggingface.co/datasets/Chanson-0803/MED-TTS" target="_blank">[dataset]</a>
+      </span>
+    </li>
+    <li>
+      <span class="pub-list-badge">AAAI 2026</span>
+      <span class="pub-list-title">Rethinking Surgical Smoke: A Smoke-Type-Aware Laparoscopic Video Desmoking Method and Dataset</span><br>
+      <span class="pub-list-authors">
+        <span class="au-me">Qifan Liang</span>, Junlin Li, <span class="au-corr">Zhen Han<sup>†</sup></span>, Xihao Wang, Zhongyuan Wang, Bin Mei.
+      </span>
+      <span class="pub-list-links">
+        <a href="https://ojs.aaai.org/index.php/AAAI/article/view/37617" target="_blank">[paper]</a>
+        <a href="https://arxiv.org/abs/2512.02780" target="_blank">[arXiv]</a>
+        <a href="https://simon-leong.github.io/STSVD/" target="_blank">[website]</a>
+        <a href="https://github.com/Simon-leong/STSVD" target="_blank">[code]</a>
       </span>
     </li>
     <li>
